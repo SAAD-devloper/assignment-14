@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - My Restaurant</title>
+</head>
+<body bgcolor="#800000">
+
+    <table border="1" width="100%" cellpadding="10">
+        <tr>
+          <td bgcolor="#FFFFE0" align="center"><a href="index.html">Home</a></td>
+            <td bgcolor="#FFFFE0" align="center"><a href="menu.html"><b>Menu</b></a></td>
+            <td bgcolor="#FFFFE0" align="center"><a href="about.html">About Us</a></td>
+            <td bgcolor="#FFFFE0" align="center"><a href="contact.html">Contact Us</a></td>
+        </tr>
+    </table>
+   <center><img src="image1.jpg" alt="Restaurant Front" width="200"></center>
+    <hr>
+       <img src="image12.jpg" alt="Restaurant Front" width="100%">
+    <h1>Contact & Order Form</h1>
+    
+    <form action="#">
+        <table cellpadding="5">
+            <tr>
+                <td><label for="name">Naam:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+            <tr>
+                <td><label for="item">Select Item:</label></td>
+                <td>
+                    <select id="item" name="item">
+                        <option value="biryani">Matka Biryani</option>
+                        <option value="burger">Crispy Burger</option>
+                        <option value="cake">Pineapple Ice Cake</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="msg">Message / Address:</label></td>
+                <td><textarea id="msg" name="msg" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear Form">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
